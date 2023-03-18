@@ -1,4 +1,4 @@
-package mycom.mytest;
+package src.mycom.mytest;
 
 public class Main {
     public static void main(String[] args) {

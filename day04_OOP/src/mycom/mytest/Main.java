@@ -1,4 +1,4 @@
-package mycom.mytest;
+package day04_OOP.src.mycom.mytest;
 public class Main {
     public static void main(String[] args) {
 //전체 프로세스의 로직
@@ -15,11 +15,11 @@ public class Main {
 //        Enemy enemy2 = new Enemy();
 //        enemy2.display();
 
-        Score score1 = new Score(1, "홍길동");
+        mycom.mytest.Score score1 = new mycom.mytest.Score(1, "홍길동");
         score1.display();
-        Score score2 = new Score(2, "김길동");
+        mycom.mytest.Score score2 = new mycom.mytest.Score(2, "김길동");
         score2.display();
-        Score score3 = new Score(3, "이길동");
+        mycom.mytest.Score score3 = new mycom.mytest.Score(3, "이길동");
         score3.display();
     }
 };

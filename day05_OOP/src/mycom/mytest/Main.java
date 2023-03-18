@@ -1,14 +1,14 @@
-package mycom.mytest;
+package day05_OOP.src.mycom.mytest;
 
 public class Main {
     public static void main(String[] args) {
 
-        CustomerInfo c1 = new CustomerInfo(1, "홍길동", 20120212, 3);
-        CustomerInfo c2 = new CustomerInfo(2, "김길동", 20120812, 2);
-        CustomerInfo c3 = new CustomerInfo(3, "이길동", 20130112, 10);
-        CustomerInfo c4 = new CustomerInfo(4, "박길동", 20110912, 11);
-        CustomerInfo c5 = new CustomerInfo(5, "최길동", 20100712, 6);
-        CustomerInfo c6 = new CustomerInfo(6, "한길동", 20120112, 8);
+        mycom.mytest.CustomerInfo c1 = new mycom.mytest.CustomerInfo(1, "홍길동", 20120212, 3);
+        mycom.mytest.CustomerInfo c2 = new mycom.mytest.CustomerInfo(2, "김길동", 20120812, 2);
+        mycom.mytest.CustomerInfo c3 = new mycom.mytest.CustomerInfo(3, "이길동", 20130112, 10);
+        mycom.mytest.CustomerInfo c4 = new mycom.mytest.CustomerInfo(4, "박길동", 20110912, 11);
+        mycom.mytest.CustomerInfo c5 = new mycom.mytest.CustomerInfo(5, "최길동", 20100712, 6);
+        mycom.mytest.CustomerInfo c6 = new mycom.mytest.CustomerInfo(6, "한길동", 20120112, 8);
 
         c1.display();
         c2.display();
