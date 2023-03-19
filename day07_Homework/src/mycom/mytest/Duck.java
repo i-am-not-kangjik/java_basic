@@ -6,10 +6,8 @@ import java.util.Random;
 public abstract class Duck {
     protected int x;
     protected int y;
-
     public static final int DUCK_SIZE = 50;
     public static int num=1; //클래스변수
-    private int mynum=0; //인스턴스마다 자신의 번호를 기억할 인스턴스 변수
 
     public Duck() {
         Random rnd =new Random();
@@ -19,16 +17,14 @@ public abstract class Duck {
     public Duck(int x, int  y) {
         this.x=x;
         this.y=y;
-        Duck.num=Duck.num+1;
-        this.mynum=Duck.num;
     }
 
     public void quack(Graphics g) {
-        g.drawString("꽥꽥", x, y-2);
+    }
+    public void swim(Graphics g) {
+        g.setColor(Color.BLACK);
+        g.drawString("수영", x-20, y+10);
     }
     public void display(Graphics g) {
-//        g.setColor(new Color(255,0,0));
-//        g.drawString(""+this.mynum, x, y);
-//        g.fillOval(this.x, this.y, Duck.DUCK_SIZE,Duck.DUCK_SIZE);
     }
 };
