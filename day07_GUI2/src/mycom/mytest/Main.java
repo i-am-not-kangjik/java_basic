@@ -1,4 +1,4 @@
-package day07_GUI2.src.mycom.mytest;
+package Day07_GUI2.src.mycom.mytest;
 
 public class Main {
 	public static void main(String[] args) {

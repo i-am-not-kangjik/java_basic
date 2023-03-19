@@ -1,11 +1,11 @@
-package day07_GUI2.src.mycom.mytest;
+package Day07_GUI2.src.mycom.mytest;
 
 import java.awt.Color;
 import java.awt.Frame;
 import java.awt.Graphics;
 
 public class MyFrame extends Frame{
-	mycom.mytest.Duck[] arr = new mycom.mytest.Duck[10];
+	Duck[] arr = new Duck[10];
 	public static final int FRAME_WIDTH = 800;
 	public static final int FRAME_HEIGHT = 600;
 	public MyFrame() {
@@ -17,7 +17,7 @@ public class MyFrame extends Frame{
 
 	private void makeDucks(){
 		for (int i=0; i<arr.length; i++){
-			arr[i] = new mycom.mytest.Duck();
+			arr[i] = new Duck();
 		}
 	}
 	@Override

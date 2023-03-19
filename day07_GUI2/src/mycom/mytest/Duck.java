@@ -1,5 +1,5 @@
-package mycom.mytest;
-import day07_GUI2.src.mycom.mytest.MyFrame;
+package Day07_GUI2.src.mycom.mytest;
+import mycom.mytest.MyFrame;
 
 import java.awt.Color;
 import java.awt.Graphics;
