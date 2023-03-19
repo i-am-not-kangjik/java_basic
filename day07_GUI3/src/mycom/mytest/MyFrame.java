@@ -1,4 +1,4 @@
-package mycom.mytest;
+package day07_GUI3.src.mycom.mytest;
 import java.awt.Frame;
 import java.awt.Graphics;
 import java.util.Random;
