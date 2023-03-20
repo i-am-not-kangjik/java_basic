@@ -34,27 +34,31 @@ public class DuckManager {
 
     public void displayAllDucks(Graphics g) {
         for (Duck d:arr){
-            d.display(g);;
+            if(d!=null) d.display(g);;
         }
     }
 
     public void swimAllDucks(Graphics g){
         for (Duck d:arr){
-            d.swim(g);
+            if(d!=null) d.swim(g);
         }
     }
 
     public void quackAllDucks(Graphics g){
         for (Duck d:arr){
-            if(d instanceof Quackable){
-                ((Quackable) d).quack(g);
+            if (d != null) {
+                if (d instanceof Quackable) {
+                    ((Quackable) d).quack(g);
+                }
             }
         }
     }
     public void flyAllDucks(Graphics g){
         for (Duck d:arr){
-            if(d instanceof Flyable){
-                ((Flyable) d).fly(g);
+            if(d != null) {
+                if(d instanceof Flyable){
+                    ((Flyable) d).fly(g);
+                }
             }
         }
     }
