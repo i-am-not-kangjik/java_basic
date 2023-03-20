@@ -1,4 +1,4 @@
-package mycom.mytest;
+package day07_Homework.src.mycom.mytest;
 
 import java.awt.*;
 import java.util.Random;
