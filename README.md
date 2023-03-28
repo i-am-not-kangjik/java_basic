@@ -1,2 +1,2 @@
-# spring_basic
-웹 기초
+# java_basic
+자바 기초
